@@ -6,4 +6,4 @@ Homebrew tap for [ClaudeBarLimit](https://github.com/tfiechowski/claude-bar-limi
 brew install --cask tfiechowski/tap/claude-bar-limit
 ```
 
-The cask is added with the first release (not available yet). The app is not Apple-notarized; Homebrew does not remove Gatekeeper prompts. See the app's README for first-launch steps.
+The app is not Apple-notarized; Homebrew does not remove Gatekeeper prompts. See the app's README for first-launch steps.
