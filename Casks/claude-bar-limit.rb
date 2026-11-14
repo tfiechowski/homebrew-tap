@@ -12,13 +12,11 @@ cask "claude-bar-limit" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "ClaudeBarLimit.app"
 
-  zap trash: [
-    "~/Library/Preferences/dev.tfi.claudebarlimit.plist",
-  ]
+  zap trash: "~/Library/Preferences/dev.tfi.claudebarlimit.plist"
 
   caveats <<~EOS
     ClaudeBarLimit is not notarized by Apple. On first launch macOS may block it:
