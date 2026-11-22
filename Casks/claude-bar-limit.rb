@@ -1,6 +1,6 @@
 cask "claude-bar-limit" do
-  version "0.1.0"
-  sha256 "75aba3a09d90850d14150782920cb8cde999ab964e0cf0d93186cc119c30fcd2"
+  version "1.0.0"
+  sha256 "d40e38cb2e4a3ab5376bfb0a965fb9902cc84a650998a0374fdc102686108db4"
 
   url "https://github.com/tfiechowski/claude-bar-limit/releases/download/v#{version}/ClaudeBarLimit-#{version}-macOS.zip"
   name "ClaudeBarLimit"
